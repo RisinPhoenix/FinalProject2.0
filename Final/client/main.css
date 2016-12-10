@@ -1,0 +1,29 @@
+/*Centers Copyright*/
+body {
+	color:green;
+	text-align:center;
+	background-image:url("/images/Background1.png");
+    background-size: cover;
+}
+/*title*/
+#title{
+	color:yellow;
+	text-align:center;
+}
+
+.easyRead{
+	font-weight: bold;
+	margin: 30px;
+    background-color: black
+    ;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
+/*Copyright*/
+#last {
+	width:100%;
+	background-color:black;
+	color:yellow;
+	text-align:center;
+}
