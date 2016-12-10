@@ -1,4 +1,4 @@
-/*Centers Copyright*/
+/*CSS PAGE*/
 body {
 	color:green;
 	text-align:center;
@@ -8,9 +8,8 @@ body {
 /*title*/
 #title{
 	color:yellow;
-	text-align:center;
 }
-
+/*creates transpart box to make font easier to read on multi-shade background*/
 .easyRead{
 	font-weight: bold;
 	margin: 30px;
@@ -25,5 +24,4 @@ body {
 	width:100%;
 	background-color:black;
 	color:yellow;
-	text-align:center;
 }

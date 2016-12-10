@@ -1,12 +1,16 @@
+// routes using FlowRouter for routing and BlazeLayout for rendering
+
+// route for the base page
 FlowRouter.route('/',
 {
-  name: 'home',
+  name: '/',
   action(){
     // console.log('/');
     BlazeLayout.render('layout1', { top: "header", main: "home", bottom: "footer"});
     }  
 });
 
+// route for the base page
 FlowRouter.route('/home',
 {
   name: 'home',
@@ -16,7 +20,7 @@ FlowRouter.route('/home',
   }
 });
 
-
+// route for the streaming page
 FlowRouter.route('/Streaming',
 {
   name: 'Streaming',
@@ -26,6 +30,7 @@ FlowRouter.route('/Streaming',
   }
 });
 
+// route for the signing page
 FlowRouter.route('/signing',
 {
   name: 'Signing',
@@ -35,20 +40,22 @@ FlowRouter.route('/signing',
   }
 });
 
+// route for the sending
 FlowRouter.route('/sending',
 {
   name: 'Sending',
   action(){
     BlazeLayout.render('layout1', { top: "headerSending", main: "sending", bottom: "footer" });
-    // console.log('/signing');
+    // console.log('/sending');
   }
 });
 
+// route for the followUp
 FlowRouter.route('/followUp',
 {
   name: 'FollowUp',
   action(){
     BlazeLayout.render('layout1', { top: "headerFollowUp", main: "followUp", bottom: "footer" });
-    // console.log('/signing');
+    // console.log('/followUp');
   }
 });
